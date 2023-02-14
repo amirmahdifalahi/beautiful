@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  /* "commodore 64 pixelized",   */
+  font-family: "commodore 64 pixelized", sans-serif;
+  font-size: 18px;
+  color: green;
+  background-color: black;
+  line-height: 1.5;
+}
+
+/* ----main header(flex container)---- */
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.back:link,
+.back:visited {
+  color: green;
+  text-decoration: none;
+}
+
+.back:hover,
+.back:active {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* -------header--------- */
+
+.header {
+  margin-bottom: 30px;
+  font-size: 36px;
+}
+
+/* -----geeks paragraph------- */
+
+p {
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+/* -----rules container (flex container)-------- */
+
+.rules {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+li {
+  margin-left: 50px;
+}
+
+pre {
+  text-align: center;
+}

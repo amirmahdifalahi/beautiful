@@ -1,0 +1,134 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  /* "commodore 64 pixelized",   */
+  font-family: "commodore 64 pixelized", sans-serif;
+  font-size: 18px;
+  background-color: rgb(72, 136, 255);
+}
+
+/* ---------this is container--------- */
+.container {
+  width: 1024px;
+  margin: 0px auto;
+}
+
+/* -------this is the header--------- */
+
+.header {
+  color: rgb(72, 136, 255);
+  background-color: rgb(0, 0, 192);
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+
+/* ------------row (the flex container of article and aside element)----------- */
+
+.row {
+  gap: 24px;
+  display: flex;
+  align-items: flex-start;
+}
+
+/* ---------------this is the main content---------- */
+.main {
+  color: rgb(72, 136, 255);
+  background-color: rgb(0, 0, 192);
+  /* text-align: center; */
+}
+
+h1 {
+  color: black;
+  background-color: rgb(189, 189, 189);
+  margin-bottom: 30px;
+}
+
+/* --------the game box---------- */
+.games {
+  display: flex;
+  border-top: 2px solid rgb(189, 189, 189);
+  margin-bottom: 20px;
+}
+
+.game-title {
+  color: black;
+  background-color: rgb(189, 189, 189);
+  align-self: flex-start;
+}
+
+.game-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.games img {
+  width: 250px;
+  height: 190px;
+  border-left: 1px solid rgb(189, 189, 189);
+  border-bottom: 1px solid rgb(189, 189, 189);
+}
+
+.game-link {
+  display: flex;
+  justify-content: center;
+}
+
+.finding:link,
+.finding:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.finding:hover,
+.finding:active {
+  color: rgb(255, 255, 56);
+  text-decoration: underline;
+}
+
+/* -------------related posts-------------- */
+.related {
+  background-color: rgb(0, 0, 192);
+  flex: 0 0 250px;
+}
+
+.related-title {
+  color: black;
+  background-color: rgb(189, 189, 189);
+  text-align: center;
+}
+
+.related-post {
+  list-style: none;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.related-links:link,
+.related-links:visited {
+  color: rgb(189, 189, 189);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.related-links:hover,
+.related-links:active {
+  color: rgb(255, 255, 56);
+  text-decoration: underline;
+}
+
+/* --------------this is footer------------- */
+.ready {
+  display: flex;
+  align-items: center;
+  color: rgb(72, 136, 255);
+  background-color: rgb(0, 0, 192);
+  font-weight: bold;
+  font-size: 22px;
+}
